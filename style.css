@@ -6,17 +6,21 @@
 
 body {
     font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to right top, #130a18, #190a24, #1b0b31, #1c0a3f, #1b084d, #151051, #0c1655, #001b59, #001f4b, #001d35, #001820, #051010);
+    /* background-size: cover;
+    background-attachment: fixed; Keeps the background fixed while scrolling 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh; /* Ensures the background covers the full height */
+    color: #fff;
 }
-
 
 .stack-background {
-    height: 100vh;
-    background-image: linear-gradient(to right top, #130a18, #190a24, #1b0b31, #1c0a3f, #1b084d, #151051, #0c1655, #001b59, #001f4b, #001d35, #001820, #051010);
-    color: #fff;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: flex-start; */
+    padding-top: 40px; /* Adjust the padding based on your layout */
+    /* No need for height or background styles here */
 }
+
 
 nav {
     display: flex;
@@ -132,4 +136,28 @@ p {
     width: 100%;
     max-width: 480px;
     border-radius: 60px;
+}
+
+section {
+    display: flex;
+    max-width: 100%;
+    margin: 6rem 40rem;
+    justify-content: space-evenly;
+    border: rgba(188, 188, 188, 0.533) 1px solid ;
+    border-radius: 24px;
+    padding: 2.5rem;
+}
+
+section h3 {
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #9fb0c0;
+}
+
+.SectionRightM {
+    margin-right: 6rem;
 }
