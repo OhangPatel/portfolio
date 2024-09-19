@@ -143,9 +143,10 @@ section {
     max-width: 100%;
     margin: 6rem 40rem;
     justify-content: space-evenly;
-    border: rgba(188, 188, 188, 0.533) 1px solid ;
+    border: rgba(188, 188, 188, 0.533) 0.01rem solid ;
     border-radius: 24px;
     padding: 2.5rem;
+    box-shadow: 0 2px 4px #6565656e;
 }
 
 section h3 {
@@ -161,3 +162,36 @@ section p {
 .SectionRightM {
     margin-right: 6rem;
 }
+
+#section2 {
+    max-width: 100%;
+    margin: 6rem 40rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s2part1 h2 {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.gradient-button {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(45deg, #dd717c, #2b5585);
+    border: none;
+    padding: 10px 50px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gradient-button:hover {
+    opacity: 0.8;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
