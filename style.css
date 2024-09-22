@@ -11,7 +11,7 @@ body {
     font-family: "Arial", sans-serif;
     background-image: var(--background-gradient);
     color: var(--text-color);
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 nav {
@@ -158,5 +158,50 @@ p {
     .photo img {
         width: 400px;
         margin-top: 1.6rem;
+    }
+}
+
+.sec1 {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    /* max-width: 100%; */
+    /* justify-content: space-evenly; */
+    
+    margin-top: 4rem;
+    border: rgba(188, 188, 188, 0.533) 0.01rem solid ;
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px #6565656e;
+}
+
+.sec1 h3 {
+    color: #d4d9e5;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.sec1 p {
+    font-size: 1rem;
+    color: #8292a0;
+}
+
+@media (max-width: 700px) {
+    .sec1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8rem;
+        gap: 2rem;
+    }
+
+    .sec1 h3 {
+        font-size: 1.4rem;
+    }
+
+    .sec1 p {
+        font-size: 1rem;
+        max-width:fit-content;
+        /* color: #9fb0c0; */
     }
 }
