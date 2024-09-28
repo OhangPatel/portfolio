@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to right top, #130a18, #190a24, #1b0b31, #1c0a3f, #1b084d, #151051, #0c1655, #001b59, #001f4b, #001d35, #001820, #051010);
+    /* background-size: cover;
+    background-attachment: fixed; Keeps the background fixed while scrolling 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh; /* Ensures the background covers the full height */
+    color: #fff;
+}
+
+.stack-background {
+    padding-top: 40px; /* Adjust the padding based on your layout */
+    /* No need for height or background styles here */
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 80px;
+    margin: 0 0 56px;
+    font-size: 1rem;
+    /* align-items: center; */
+}
+
+
+
+
+.navName {
+    font-size: 1.4rem;
+}
+
+.navControls ul {
+    list-style-type: none;
+    display: flex;
+    padding: 8px;
+    background: #1a1221cb;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(113, 113, 113, 0.3);   
+}
+
+.navControls ul li {
+    margin: 6px 0;
+}
+
+.navControls ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navControls ul li a:hover {
+    background: #0d2844;
+}
+
+.navControls ul li .active {
+    background: #163b5d;
+    color: #fff;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.navM1 {
+    margin-right: 10px;
+}
+.navM2 {
+    margin: 0 10px;
+}
+.navM3 {
+    margin-left: 10px;
+}
+
+.navSocials {
+    display: flex;
+}
+
+.social {
+    
+    padding-right: 0.8rem;
+    
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    padding: 6rem 40rem;
+}
+
+.nameInfo {
+    flex: 1;
+    padding-right: 4rem;
+    margin-top: 8rem;
+}
+
+h1 {
+    font-size: 4.4rem;
+    line-height: 1.2;
+}
+
+
+p {
+    margin-top: 16px;
+    font-size: 1.5rem;
+    color: #B3B3B3;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.skill {
+    display: inline-block;
+    background-color: #7cd3ee83;
+    color: #000;
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    
+    
+}
+
+.photo img {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 60px;
+}
+
+section {
+    display: flex;
+    max-width: 100%;
+    margin: 6rem 40rem;
+    justify-content: space-evenly;
+    border: rgba(188, 188, 188, 0.533) 0.01rem solid ;
+    border-radius: 24px;
+    padding: 2.5rem;
+    box-shadow: 0 2px 4px #6565656e;
+}
+
+section h3 {
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #9fb0c0;
+}
+
+.SectionRightM {
+    margin-right: 6rem;
+}
+
+#section2 {
+    max-width: 100%;
+    margin: 6rem 40rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s2part1 h2 {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.gradient-button {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(45deg, #dd717c, #2b5585);
+    border: none;
+    padding: 10px 50px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gradient-button:hover {
+    opacity: 0.8;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
