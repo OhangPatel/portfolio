@@ -1,5 +1,11 @@
 :root {
-    --background-gradient: linear-gradient(to right top, #130a18, #190a24, #1b0b31, #1c0a3f, #1b084d, #151051, #0c1655, #001b59, #001f4b, #001d35, #001820, #051010);
+    /* --background-gradient: linear-gradient(to right top, #130a18, #190a24, #1b0b31, #1c0a3f, #1b084d, #151051, #0c1655, #001b59, #001f4b, #001d35, #001820, #051010); */
+    /* --background-gradient: linear-gradient(to right top, #353535, #3c6e71, #89b0ae, #6db3a3, #284b63); */
+    /* --background-gradient: linear-gradient(to right top, #031926, #1E201E, #3C3D37, #697565, #ECDFCC); */
+    /* --background-gradient: linear-gradient(to right top, #031926, #1A3636, #40534C, #677D6A, #D6BD98); */
+    /* --background-gradient: linear-gradient(to right top, #031926, #1A3636, #40534C, #677D6A, #b8a991); */
+    --background-gradient: linear-gradient(to right top, #031926, #1A3636, #224747, #4f6352, #8b816e);
+
     --nav-bg: rgba(26, 18, 33, 0.8);
     --hover-bg: #0d2844;
     --text-color: #fff;
@@ -311,7 +317,8 @@ p {
     width: 100%;
     object-fit: cover;
     border-radius: 40px;
-    transition: transform 0.2s ease;
+    transition: transform 0.8s ease,  opacity 0.8s ease;;
+    opacity: 0.65;
     
 }
 
@@ -325,7 +332,8 @@ p {
 
 .sec2part2 img:hover {
     transform: scale(1.02);
-    box-shadow: 0 6px 10px rgba(255, 255, 255, 0.215);
+    /* box-shadow: 0 6px 10px rgba(255, 255, 255, 0.15); */
+    opacity: 1;
 }
 
 aside {
@@ -421,3 +429,21 @@ footer p {
         margin-top: 1.2rem;
     }
 }
+
+/* Profile Photo and Name Info Transitions */
+#profilePhoto {
+    transition: transform 0.2s ease-out;
+}
+
+.nameInfo {
+    transition: transform 0.2s ease-out;
+}
+
+/* Navigation Controls */
+.navControls {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+
+
