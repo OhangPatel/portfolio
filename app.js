@@ -55,5 +55,3 @@ photo.addEventListener('mouseleave', () => {
 
 
 
-
-
